@@ -5,6 +5,8 @@
 Preset number : 1 byte (value 1-16) at offset 10
 Preset name : 6 ASCII bytes from offset 11
 
+TODO: global channel
+
 
 **********
 *  Pads  *
@@ -31,14 +33,14 @@ Internal offsets:
 06 : Control
         CC number in direct CC mode
         Control number - 128 if custom control
-            145 : Program, Bank LSB/MSB
-            146 : CC latch / cycle
-            147 : Note ON
-            149 : MMC (MIDI Machine Control)
-            153 : MIDI CC decrement
-            154 : MIDI CC increment
-            155 : Program decrement
-            156 : Program increment
+            145 (17) : Program, Bank LSB/MSB
+            146 (18) : CC latch / cycle
+            147 (19) : Note ON
+            149 (21) : MMC (MIDI Machine Control)
+            153 (25) : MIDI CC decrement
+            154 (26) : MIDI CC increment
+            155 (27) : Program decrement
+            156 (28) : Program increment
 07 : Data 1
         See manual, depends on control, e.g.
             note number in note mode
@@ -46,48 +48,168 @@ Internal offsets:
 08 : Data 2
         See manual, depends on control, e.g.
             CC released value
-09 : ?
-10 : ?
-11 : ?
-12 : ?
+09 : ? probably Data4 on/off
+10 : ? probably Data4 value
+11 : ? probably data5 on/off
+12 : ? probably data5 value
 13 : Data 3
 
 *************
 *  Buttons  *
 *************
 
-TODO: sembrano molto simili a pad come schema.
-Guarda manuale pag. 47-59
+20 buttons,
+start offset for button 1 : 299
+Btn 20 channel : 622
+
+Button structure size : 17
+
+Button structure:
+
+00 : channel
+01 - 04 : 4 colors (off, 1, 2, 3 stages)
+            see pag. 58 for color coding
+05 : Mode
+        0 : direct CC, 1 : custom control defined by 305
+06 : Control
+        CC number in direct CC mode
+        145 (17) : Program, Bank LSB/MSB
+        146 (18) : CC latch / cycle
+        147 (19) : Note ON
+        149 (21) : MMC (MIDI Machine Control)
+        153 (25) : MIDI CC decrement
+        154 (26) : MIDI CC increment
+        155 (27) : Program decrement
+        156 (28) : Program increment
+07 : Data 1
+        See manual, depends on control, e.g.
+            note number in note mode
+            CC number in CC latch/cycle
+
+08 : Data2
+        e.g. value released for CC mode
+
+09 : Data4 status
+        0 : active, 1 : off (sic)
+
+10 : Data4 value
+
+11 : Data5 status
+        0 : active, 1 : off (sic)
+
+12 : Data5 value
+
+13 : Data3
+        e.g. value pressed for CC mode
+
+14-16 : ? maybe HID mode
+          (0x01 0x21 0x11 in default dump)
 
 
-**********************************************
-*  Faders, Encoders, Wheels, Pedals, XY Pad  *
-**********************************************
+**************
+*  Encoders  *
+**************
 
-pag. 60 - 64
+Encoder 1 start offset : 759
+16 Encoders
 
-Anche qui, non sembra niente di strano
+Encoder structure size : 6 bytes
 
-Sembra che le curve siano customizzabili per encoder (pag. 63),
-ma quella e' meglio farla nella DAW
+Encoder structure : 
 
+00 : channel
+
+02 : CC number in absolute mode
+
+04 : min value when absolute CC 
+05 : max value when absolute CC
+
+**************
+*  Faders    *
+**************
+
+Fader 1 start offset : 639
+16 Faders
+
+Fader structure size : 6 bytes
+
+Fader structure : 
+
+00 : channel
+
+02 : CC number in absolute mode
+
+04 : min value when absolute CC 
+05 : max value when absolute CC
 
 ***********
 *  Zones  *
 ***********
 
-Sembrano essere salvate per preset
+Zone 1 start offset : 18
 
-Guarda:
-    limiti di nota
-    Zone Channels
-    Program / Bank change
-    Zone Octave / transposition
+Zone structure size : 9 bytes
 
-*********************************
-*  Global Preset Configuration  *
-*********************************
+Zone structure : 
 
-Global Channel
+00 : zone channel
 
-Preset
+01 : zone program change
+
+02 : zone Bank MSB
+
+03 : zone Bank LSB
+
+04 : zone start key (C2=0, C4=24)
+     default = 0
+
+04 : zone end key (C2=0, C4=24)
+     default = 24
+
+06 : zone transpose octave
+        default is 05 (display: 0)
+07 : zone transpose semitones
+        default is 12 (display: 0)
+
+08 : ?
+
+************
+*  Wheels  *
+************
+
+Pitch Wheel start offset : 53
+Mod Wheel   start offset : 58
+Wheel data structure length : 5 bytes
+
+Structure:
+
+00 : channel
+01 : mode
+        00 : MIDI cc
+        01 : Pitch Wheel
+02 : Data 1
+        CC number when CC
+        16 when Pitch Wheel
+03 : Data 2
+        min value when CC
+04 : Data 3
+        max value when CC
+
+*************
+*  XY Pad   *
+*************
+
+X Channel : 855
+
++1 : Mode
++2 : CC number when CC, 16 when Pitch Wheel
++4 : min CC value
++5 : max CC val.
+
+Y Channel : 870
+
++1 : Mode
++2 : CC number when CC, 16 when Pitch Wheel
++4 : min CC value
++5 : max CC val.
+
