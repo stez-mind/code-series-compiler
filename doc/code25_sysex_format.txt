@@ -88,12 +88,12 @@ Button structure:
         e.g. value released for CC mode
 
 09 : Data4 status
-        0 : active, 1 : off (sic)
+        0 : active, 1 : off
 
 10 : Data4 value
 
 11 : Data5 status
-        0 : active, 1 : off (sic)
+        0 : active, 1 : off
 
 12 : Data5 value
 
@@ -103,6 +103,9 @@ Button structure:
 14-16 : ? maybe HID mode
           (0x01 0x21 0x11 in default dump)
 
+
+When in CC latch/cycle mode,
+the order of values sent is: data4, data5, data3, data2
 
 **************
 *  Encoders  *

@@ -2,8 +2,54 @@
     "global" : {
         "name" : "default",
         "number" : 1,
-        "display_name" : "DEFLT",
+        "display_name" : "DEFLT"
     },
+    "zones" : [
+        {
+            "number" : 1,
+            "channel" : 1,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 2,
+            "channel" : 1,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 3,
+            "channel" : 1,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 4,
+            "channel" : 1,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        }
+    ],
     "pitch_wheel" : {
         "channel" : 0,
         "mode" : "pitch_wheel",
@@ -13,8 +59,8 @@
     },
     "mod_wheel" : {
         "channel" : 0,
-        "mode" : "pitch_wheel",
-        "cc" : 0,
+        "mode" : "cc",
+        "cc" : 49,
         "min_val" : 0,
         "max_val" : 127
     },
@@ -27,53 +73,11 @@
     },
     "pad_y" : {
         "channel" : 0,
-        "mode" : "pitch_wheel",
+        "mode" : "cc",
         "cc" : 52,
         "min_val" : 0,
         "max_val" : 127
     },
-    "zones" : [
-        {
-            "number" : 1,
-            "start_key" : 0,
-            "end_key" : 24,
-            "octave" : 0,
-            "transpose" : 0,
-            "program" : 0,
-            "bank_msb" : 0,
-            "bank_lsb" : 0
-        },
-        {
-            "number" : 2,
-            "start_key" : 0,
-            "end_key" : 24,
-            "octave" : 0,
-            "transpose" : 0,
-            "program" : 0,
-            "bank_msb" : 0,
-            "bank_lsb" : 0
-        },
-        {
-            "number" : 3,
-            "start_key" : 0,
-            "end_key" : 24,
-            "octave" : 0,
-            "transpose" : 0,
-            "program" : 0,
-            "bank_msb" : 0,
-            "bank_lsb" : 0
-        },
-        {
-            "number" : 4,
-            "start_key" : 0,
-            "end_key" : 24,
-            "octave" : 0,
-            "transpose" : 0,
-            "program" : 0,
-            "bank_msb" : 0,
-            "bank_lsb" : 0
-        }
-    ],
     "pads" : [
         {
             "number" : 1,
@@ -309,12 +313,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 2,
@@ -323,12 +327,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 3,
@@ -337,12 +341,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 4,
@@ -351,12 +355,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 5,
@@ -365,12 +369,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 6,
@@ -379,12 +383,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 7,
@@ -393,12 +397,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 8,
@@ -407,12 +411,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 9,
@@ -421,12 +425,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 10,
@@ -435,12 +439,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 11,
@@ -449,12 +453,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 12,
@@ -463,12 +467,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 13,
@@ -477,12 +481,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 14,
@@ -491,12 +495,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 15,
@@ -505,12 +509,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 16,
@@ -519,12 +523,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 17,
@@ -533,12 +537,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 18,
@@ -547,12 +551,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 19,
@@ -561,12 +565,12 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         },
         {
             "number" : 20,
@@ -575,18 +579,19 @@
             "mode" : "cc_latch",
             "cc" : 21,
             "data1" : 0,
-            "data2" : 32,
-            "data3" : 64,
+            "data2" : 127,
+            "data3" : 96,
             "data4_active" : true,
-            "data4" : 96,
+            "data4" : 32,
             "data5_active" : true,
-            "data5" : 127
+            "data5" : 64
         }
     ],
     "encoders" : [
         {
             "number" : 1,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 21,
             "min_val" : 0,
             "max_val" : 127
@@ -594,6 +599,7 @@
         {
             "number" : 2,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 22,
             "min_val" : 0,
             "max_val" : 127
@@ -601,6 +607,7 @@
         {
             "number" : 3,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 23,
             "min_val" : 0,
             "max_val" : 127
@@ -608,6 +615,7 @@
         {
             "number" : 4,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 24,
             "min_val" : 0,
             "max_val" : 127
@@ -615,6 +623,7 @@
         {
             "number" : 5,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 25,
             "min_val" : 0,
             "max_val" : 127
@@ -622,6 +631,7 @@
         {
             "number" : 6,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 26,
             "min_val" : 0,
             "max_val" : 127
@@ -629,6 +639,7 @@
         {
             "number" : 7,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 27,
             "min_val" : 0,
             "max_val" : 127
@@ -636,6 +647,7 @@
         {
             "number" : 8,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 28,
             "min_val" : 0,
             "max_val" : 127
@@ -643,6 +655,7 @@
         {
             "number" : 9,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 29,
             "min_val" : 0,
             "max_val" : 127
@@ -650,6 +663,7 @@
         {
             "number" : 10,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 30,
             "min_val" : 0,
             "max_val" : 127
@@ -657,6 +671,7 @@
         {
             "number" : 11,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 31,
             "min_val" : 0,
             "max_val" : 127
@@ -664,6 +679,7 @@
         {
             "number" : 12,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 32,
             "min_val" : 0,
             "max_val" : 127
@@ -671,6 +687,7 @@
         {
             "number" : 13,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 33,
             "min_val" : 0,
             "max_val" : 127
@@ -678,6 +695,7 @@
         {
             "number" : 14,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 34,
             "min_val" : 0,
             "max_val" : 127
@@ -685,6 +703,7 @@
         {
             "number" : 15,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 35,
             "min_val" : 0,
             "max_val" : 127
@@ -692,7 +711,8 @@
         {
             "number" : 16,
             "channel" : 0,
-            "cc" : 37,
+            "mode" : "cc",
+            "cc" : 36,
             "min_val" : 0,
             "max_val" : 127
         }
@@ -701,6 +721,7 @@
         {
             "number" : 1,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 21,
             "min_val" : 0,
             "max_val" : 127
@@ -708,6 +729,7 @@
         {
             "number" : 2,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 22,
             "min_val" : 0,
             "max_val" : 127
@@ -715,6 +737,7 @@
         {
             "number" : 3,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 23,
             "min_val" : 0,
             "max_val" : 127
@@ -722,6 +745,7 @@
         {
             "number" : 4,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 24,
             "min_val" : 0,
             "max_val" : 127
@@ -729,6 +753,7 @@
         {
             "number" : 5,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 25,
             "min_val" : 0,
             "max_val" : 127
@@ -736,6 +761,7 @@
         {
             "number" : 6,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 26,
             "min_val" : 0,
             "max_val" : 127
@@ -743,6 +769,7 @@
         {
             "number" : 7,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 27,
             "min_val" : 0,
             "max_val" : 127
@@ -750,6 +777,7 @@
         {
             "number" : 8,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 28,
             "min_val" : 0,
             "max_val" : 127
@@ -757,6 +785,7 @@
         {
             "number" : 9,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 29,
             "min_val" : 0,
             "max_val" : 127
@@ -764,6 +793,7 @@
         {
             "number" : 10,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 30,
             "min_val" : 0,
             "max_val" : 127
@@ -771,6 +801,7 @@
         {
             "number" : 11,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 31,
             "min_val" : 0,
             "max_val" : 127
@@ -778,6 +809,7 @@
         {
             "number" : 12,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 32,
             "min_val" : 0,
             "max_val" : 127
@@ -785,6 +817,7 @@
         {
             "number" : 13,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 33,
             "min_val" : 0,
             "max_val" : 127
@@ -792,6 +825,7 @@
         {
             "number" : 14,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 34,
             "min_val" : 0,
             "max_val" : 127
@@ -799,6 +833,7 @@
         {
             "number" : 15,
             "channel" : 0,
+            "mode" : "cc",
             "cc" : 35,
             "min_val" : 0,
             "max_val" : 127
@@ -806,7 +841,40 @@
         {
             "number" : 16,
             "channel" : 0,
+            "mode" : "cc",
+            "cc" : 36,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 17,
+            "channel" : 0,
+            "mode" : "cc",
             "cc" : 37,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 18,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 38,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 19,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 39,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 20,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 40,
             "min_val" : 0,
             "max_val" : 127
         }

@@ -1,6 +1,7 @@
 *.pyc
 *.o
 *.a
+*.syx
 .*
 !.gitignore
 scratch/
