@@ -1,0 +1,93 @@
+************
+*  Global  *
+************
+
+Preset number : 1 byte (value 1-16) at offset 10
+Preset name : 6 ASCII bytes from offset 11
+
+
+**********
+*  Pads  *
+**********
+
+User Guide pages 71-83
+
+Start offset : 75  (Pad 1)
+
+14 bytes per pad
+
+Internal offsets:
+
+00 : Channel
+    0     : global
+    1-16  : absolute channel for control
+    17-20 : use channel from zone 1-4
+01 : Color 1 (see pag. 82)
+02 : Color 2
+03 : Color 3
+04 : Color 4
+05 : Mode
+        0 : direct CC, 1 : custom control defined by 06
+06 : Control
+        CC number in direct CC mode
+        Control number - 128 if custom control
+            145 : Program, Bank LSB/MSB
+            146 : CC latch / cycle
+            147 : Note ON
+            149 : MMC (MIDI Machine Control)
+            153 : MIDI CC decrement
+            154 : MIDI CC increment
+            155 : Program decrement
+            156 : Program increment
+07 : Data 1
+        See manual, depends on control, e.g.
+            note number in note mode
+            CC number in CC latch/cycle
+08 : Data 2
+        See manual, depends on control, e.g.
+            CC released value
+09 : ?
+10 : ?
+11 : ?
+12 : ?
+13 : Data 3
+
+*************
+*  Buttons  *
+*************
+
+TODO: sembrano molto simili a pad come schema.
+Guarda manuale pag. 47-59
+
+
+**********************************************
+*  Faders, Encoders, Wheels, Pedals, XY Pad  *
+**********************************************
+
+pag. 60 - 64
+
+Anche qui, non sembra niente di strano
+
+Sembra che le curve siano customizzabili per encoder (pag. 63),
+ma quella e' meglio farla nella DAW
+
+
+***********
+*  Zones  *
+***********
+
+Sembrano essere salvate per preset
+
+Guarda:
+    limiti di nota
+    Zone Channels
+    Program / Bank change
+    Zone Octave / transposition
+
+*********************************
+*  Global Preset Configuration  *
+*********************************
+
+Global Channel
+
+Preset

@@ -1,0 +1,169 @@
+{
+    "name" : "default",
+    "number" : 3,
+    "display_name" : "TOMARE",
+    "pads" : [
+        {
+            "number" : 1,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 36,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 2,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 37,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 3,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 38,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 4,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 39,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 5,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 40,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 6,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 41,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 7,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 42,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 8,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 43,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 9,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 44,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 10,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 45,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 11,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 46,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 12,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 47,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 13,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 48,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 14,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 49,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 15,
+            "channel" : 0,
+            "colors" : [13, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 50,
+            "data2" : 0,
+            "data3" : 0
+        },
+        {
+            "number" : 16,
+            "channel" : 0,
+            "colors" : [6, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 51,
+            "data2" : 0,
+            "data3" : 0
+        }
+
+    ]
+
+}
