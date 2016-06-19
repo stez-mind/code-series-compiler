@@ -116,9 +116,10 @@ Encoder structure size : 6 bytes
 Encoder structure : 
 
 00 : channel
+01 : ? probably mode rel/abs
 
 02 : CC number in absolute mode
-
+03 : ?
 04 : min value when absolute CC 
 05 : max value when absolute CC
 
@@ -134,9 +135,10 @@ Fader structure size : 6 bytes
 Fader structure : 
 
 00 : channel
+01 : ? probably mode rel/abs
 
 02 : CC number in absolute mode
-
+03 : ?
 04 : min value when absolute CC 
 05 : max value when absolute CC
 
