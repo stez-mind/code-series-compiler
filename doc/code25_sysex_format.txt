@@ -5,8 +5,6 @@
 Preset number : 1 byte (value 1-16) at offset 10
 Preset name : 6 ASCII bytes from offset 11
 
-TODO: global channel
-
 
 **********
 *  Pads  *
