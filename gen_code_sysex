@@ -1,4 +1,5 @@
-"""gen_code_sysex.py: Generate CODE series Sysex dumps from JSON file"""
+#!/usr/bin/python
+"""gen_code_sysex: Generate CODE series Sysex dumps from JSON file"""
 __copyright__   = "Copyright (C) 2016 Stefano Zambon"
 
 import os
