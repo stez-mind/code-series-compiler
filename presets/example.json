@@ -1,0 +1,883 @@
+{
+    "global" : {
+        "name" : "Example M-Audio Code preset",
+        "number" : 1,
+        "display_name" : "EXAMPL"
+    },
+    "zones" : [
+        {
+            "number" : 1,
+            "channel" : 11,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : -2,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 2,
+            "channel" : 9,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 3,
+            "channel" : 12,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        },
+        {
+            "number" : 4,
+            "channel" : 6,
+            "start_key" : 0,
+            "end_key" : 24,
+            "octave" : 0,
+            "transpose" : 0,
+            "program" : 0,
+            "bank_msb" : 0,
+            "bank_lsb" : 0
+        }
+    ],
+    "pitch_wheel" : {
+        "channel" : 0,
+        "mode" : "pitch_wheel",
+        "cc" : 0,
+        "min_val" : 0,
+        "max_val" : 127
+    },
+    "mod_wheel" : {
+        "channel" : 0,
+        "mode" : "cc",
+        "cc" : 49,
+        "min_val" : 0,
+        "max_val" : 127
+    },
+    "pad_x" : {
+        "channel" : 0,
+        "mode" : "cc",
+        "cc" : 51,
+        "min_val" : 0,
+        "max_val" : 127
+    },
+    "pad_y" : {
+        "channel" : 0,
+        "mode" : "cc",
+        "cc" : 52,
+        "min_val" : 0,
+        "max_val" : 127
+    },
+    "pads" : [
+        {
+            "number" : 1,
+            "channel" : 10,
+            "colors" : [1, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 51,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 2,
+            "channel" : 10,
+            "colors" : [2, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 46,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 3,
+            "channel" : 10,
+            "colors" : [10, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 36,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 4,
+            "channel" : 10,
+            "colors" : [11, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 41,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 5,
+            "channel" : 10,
+            "colors" : [3, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 44,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 6,
+            "channel" : 10,
+            "colors" : [3, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 42,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 7,
+            "channel" : 10,
+            "colors" : [9, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 38,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 8,
+            "channel" : 10,
+            "colors" : [9, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 40,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 9,
+            "channel" : 10,
+            "colors" : [12, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 49,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 10,
+            "channel" : 10,
+            "colors" : [6, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 43,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 11,
+            "channel" : 10,
+            "colors" : [12, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 37,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 12,
+            "channel" : 10,
+            "colors" : [8, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 39,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 13,
+            "channel" : 10,
+            "colors" : [6, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 45,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 14,
+            "channel" : 10,
+            "colors" : [6, 13, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 47,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 15,
+            "channel" : 10,
+            "colors" : [5, 10, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 48,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        },
+        {
+            "number" : 16,
+            "channel" : 10,
+            "colors" : [4, 11, 0, 0],
+            "mode" : "note_on",
+            "cc" : 21,
+            "data1" : 50,
+            "data2" : 0,
+            "data3" : 0,
+            "data4_active" : false,
+            "data4" : 0,
+            "data5_active" : false,
+            "data5" : 0
+        }
+
+    ],
+    "buttons" : [
+        {
+            "number" : 1,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 2,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 3,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 4,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 5,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 6,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 7,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 8,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 9,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 10,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 11,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 12,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 13,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 14,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 15,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 16,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 17,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 18,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 19,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        },
+        {
+            "number" : 20,
+            "channel" : 0,
+            "colors" : [1, 5, 3, 7],
+            "mode" : "cc_latch",
+            "cc" : 21,
+            "data1" : 0,
+            "data2" : 127,
+            "data3" : 96,
+            "data4_active" : true,
+            "data4" : 32,
+            "data5_active" : true,
+            "data5" : 64
+        }
+    ],
+    "encoders" : [
+        {
+            "number" : 1,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 21,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 2,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 22,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 3,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 23,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 4,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 24,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 5,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 25,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 6,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 26,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 7,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 27,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 8,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 28,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 9,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 29,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 10,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 30,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 11,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 31,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 12,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 32,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 13,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 33,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 14,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 34,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 15,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 35,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 16,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 36,
+            "min_val" : 0,
+            "max_val" : 127
+        }
+    ],
+    "faders" : [
+        {
+            "number" : 1,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 21,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 2,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 22,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 3,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 23,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 4,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 24,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 5,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 25,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 6,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 26,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 7,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 27,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 8,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 28,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 9,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 29,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 10,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 30,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 11,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 31,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 12,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 32,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 13,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 33,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 14,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 34,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 15,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 35,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 16,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 36,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 17,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 37,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 18,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 38,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 19,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 39,
+            "min_val" : 0,
+            "max_val" : 127
+        },
+        {
+            "number" : 20,
+            "channel" : 0,
+            "mode" : "cc",
+            "cc" : 40,
+            "min_val" : 0,
+            "max_val" : 127
+        }
+    ]
+
+}
