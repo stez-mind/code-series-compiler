@@ -48,11 +48,6 @@ PADS_CONTROL_MAP = {
     'program_dec' : 28
 }
 
-CC_CONTROL_MAP = {
-    'cc' : 0,
-    'pitch_wheel' : 1
-}
-
 CC_OFFSETS_MAP = {
     'channel' : 0,
     'mode' : 1,
